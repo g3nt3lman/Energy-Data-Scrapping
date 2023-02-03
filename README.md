@@ -18,6 +18,11 @@ a nastepnie wygenerowanie raportu wybranego przez uzytkownika dla zadanego okres
 3. Generuj raport: TGE - Kontrakty Godzinowe
 4 lub jakikolwiek inny input: Zakończ
 
+Generowanie raportu moze zajac dluzsza chwile ze wzgledu na to ze generowanie danych przez strony zajmuje pewnien czas 
+i nie jest to zwiazane z dzialaniem programu. Dla raportu 1. Generacja mocy JW strona KSE generuje dane okolo 3 min dla okresu 1 miesiąca. Dlatego pobierając dane dla np 3 miesięcy czas oczekiwanie na dane będzie równy do 10 minut. Im szerszy zakres dat wybierze uzytkownik tym dluzszy czas oczekiwania
+
+Raport RGE - Kontrakty Godzinowe moze zawierac dane tylko 2 miesiace wstecz, poniewaz tylko taki zakres danych jest dostepny na stronie TGE
+
 ### 2. Wybierz lokalizację gdzie chcesz zapisać raport
 wpisz ścieżke lokalizacji w ktorej chcesz zapisac raport np: C:\Users\Public\Documents
 
